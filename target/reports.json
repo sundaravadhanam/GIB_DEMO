@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7460668100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Negative Scenario without filling the Mandatory field",
+        "description": "",
+        "id": "enabling-the-transfer-service-for-a-account;negative-scenario-without-filling-the-mandatory-field",
+        "after": [
+          {
+            "result": {
+              "duration": 12200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 221190600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login into the Admin portal",
+            "match": {
+              "location": "TransferServiceEnable.login_into_the_Admin_portal(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "300217",
+                  "525452"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5791946300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on the authenticate button",
+            "match": {
+              "location": "TransferServiceEnable.click_on_the_authenticate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5980051800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to the Customer Master",
+            "match": {
+              "location": "TransferServiceEnable.navigate_to_the_Customer_Master()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12589316800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Search for the ECORP and Select",
+            "match": {
+              "location": "TransferServiceEnable.search_for_the_ECORP_and_Select()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9755095900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Edit and Enable the transfer service in the Product service",
+            "match": {
+              "location": "TransferServiceEnable.edit_and_Enable_the_transfer_service_in_the_Product_service()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Do not enter the mandatory fields and submit",
+            "match": {
+              "location": "TransferServiceEnable.do_not_enter_the_mandatory_fields_and_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate the outcome",
+            "match": {
+              "location": "TransferServiceEnable.validate_the_outcome()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Enabling the Transfer service for a Account",
+    "description": "",
+    "id": "enabling-the-transfer-service-for-a-account",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/TransferServiceEnabling.feature",
+    "tags": []
+  }
+]
